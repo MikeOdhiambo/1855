@@ -37,21 +37,28 @@ body{
 	padding: 2rem;
 }
 .main__title{
-	font-size: 2.5rem;
+	font-size: 2rem;
 	font-weight: bold;
-	margin-top: 2rem;
+	margin: 1rem 0 0 1.5rem;
+	text-align: center;
 	letter-spacing: 1rem;
 	color: #ffc300;
+
+}
+.sep{
+	opacity: 0.4;
+	height: 2px;
+	width: 70%;
+	background-color: #ffc300;
+	margin-top: -2.5rem;
 }
 .main__days{
-	/* border: 1px solid var(--border); */
-	padding: 1.2rem 3rem;
+	padding: 3rem;
 	text-align: center;
 	line-height: 4rem;
 	background-color: var(--card-bg);
 	border-radius: var(--border-radius);
-
-	box-shadow: rgba(255, 236, 209, 0.12) 1px 2px 11px 1px, rgba(255, 236, 209, 0.12) 0px 2px 7px 5px;
+	box-shadow: rgba(255, 255, 255, 0.25) 0px 1px 11px, rgba(255, 255, 255, 0.13) 0px 0px 1px 1px;
 }
 .main__days > p{
 	letter-spacing: 0.3rem;
@@ -63,12 +70,11 @@ body{
 .main__quote{
 	background-color: var(--card-bg);
 	border-radius: var(--border-radius);
-	/* border: 1px solid var(--border); */
 	text-align: center;
-	box-shadow: rgba(255, 236, 209, 0.12) 1px 2px 11px 1px, rgba(255, 236, 209, 0.12) 0px 2px 7px 5px;
+	box-shadow: rgba(255, 255, 255, 0.25) 0px 1px 11px, rgba(255, 255, 255, 0.13) 0px 0px 1px 1px;
 }
 .main__quote > p{
-	width: 80%;
+	width: 95%;
 	font-family: var(--quote-font);
 	font-size: 1.1rem;
 	margin: 0 auto;
