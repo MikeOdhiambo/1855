@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/* VARIABLES */
+:root{
+	--quote-font: 'Aref Ruqaa Ink', serif;
+	--timer-font: 'Lobster', cursive;
+	--main-bg: #000814;
+	--card-bg: #001d3d;
+	--border-radius: 1rem;
+	--border: #f5dfbb;
+}
+
+/* RESETS */
+*,
+*::before,
+*::after{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 100vw;
+	height: 100vh;
+	color: white;
+}
+.main{
+	width: 100%;
+	min-height: 100%;
+	background-color: var(--main-bg);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 4rem;
+	padding: 2rem;
+}
+.main__title{
+	font-size: 2.5rem;
+	font-weight: bold;
+	margin-top: 2rem;
+	letter-spacing: 1rem;
+	color: #ffc300;
+}
+.main__days{
+	/* border: 1px solid var(--border); */
+	padding: 1.2rem 3rem;
+	text-align: center;
+	line-height: 4rem;
+	background-color: var(--card-bg);
+	border-radius: var(--border-radius);
+
+	box-shadow: rgba(255, 236, 209, 0.12) 1px 2px 11px 1px, rgba(255, 236, 209, 0.12) 0px 2px 7px 5px;
+}
+.main__days > p{
+	letter-spacing: 0.3rem;
+}
+.main__days-num{
+	font-size: 4.5rem;
+	letter-spacing: 0.5rem;
+}
+.main__quote{
+	background-color: var(--card-bg);
+	border-radius: var(--border-radius);
+	/* border: 1px solid var(--border); */
+	text-align: center;
+	box-shadow: rgba(255, 236, 209, 0.12) 1px 2px 11px 1px, rgba(255, 236, 209, 0.12) 0px 2px 7px 5px;
+}
+.main__quote > p{
+	width: 80%;
+	font-family: var(--quote-font);
+	font-size: 1.1rem;
+	margin: 0 auto;
+	padding: 2rem 1rem;
+	line-height: 1.4rem;
+	letter-spacing: 0.05rem;
+}
